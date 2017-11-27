@@ -1,0 +1,21 @@
+struct Model:Decodable {
+    var name: String?
+    var age: Int?
+    var weight: Float?
+    var school: School?
+    var array: [Array]?
+}
+
+
+struct School:Decodable {
+    var name: String?
+    var address: String?
+}
+
+
+struct Array:Decodable {
+    var name: String?
+    var address: String?
+}
+
+
